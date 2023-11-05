@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids' Money Saving Game</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Kids' Money Saving Game</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#game">Play Game</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to our Money Saving Game!</h2>
+        <p>Learn to save money while having fun.</p>
+        <a id="start" type="submit" name="startgame" class="cta-button">Play Now</a>
+    </section>
+
+    <section id="game">
+         <h2>The Atom Money Saving Game</h2>
+         <p>Welcome to the Money Saving Game!
+            You start with $1000. Your goal is to save as much as you can in 10 levels.
+            Answer 'yes' or 'no' to the questions.
+            At the beginning of each level, choose how much to invest in each financial product.
+         </p>
+         <div id="game-container">
+            <h4 id="prompt"></h4>
+            <input id="input" type="text" id="input" placeholder="Type your answer here"/>
+            <button id="submit-button" type="submit">OK</button>
+            <p id="output"></p>
+            <div id="yes-or-no">
+                  <button id="yes-button" type="submit">Yes</button>
+                  <button id="no-button" type="submit">No</button>
+            </div>
+         </div>
+    </section>
+
+    <section id="about"><div id="yes-or-no">
+                  <button id="yes-button" type="submit">Yes</button>
+                  <button id="no-button" type="submit">No</button>
+            </div>
+            <div id="yes-or-no" style="visibility: hidden;">
+               <input id="yes-no"type="text" placeholder="Yes/No">
+               <button id="yes-no-button" type="submit">answer</button>
+         </div>
+        <h2>About Us</h2>
+        <p>We are dedicated to teaching kids the importance of saving money in a fun and interactive way.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, please don't hesitate to get in touch with us.</p>
+        <a href="contact.html" class="cta-button">Contact Us</a>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2023 Kids' Money Saving Game</p>
+    </footer>
+
+    <script src="./front.js"></script>
+</body>
+</html>
